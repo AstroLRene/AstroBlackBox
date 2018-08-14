@@ -8,9 +8,9 @@ import com.alibaba.fastjson.{JSON, JSONObject}
 
 object ConnectPoolUtil {
 
-  val url = "jdbc:mysql://ip:3306/dbtest?useUnicode=true&characterEncoding=UTF-8"
+  val url = "jdbc:mysql://192.168.199.106:3306/diary?useUnicode=true&characterEncoding=UTF-8"
   val username = "root"
-  val password = "password"
+  val password = "root"
 
   Class.forName("com.mysql.jdbc.Driver")
 
